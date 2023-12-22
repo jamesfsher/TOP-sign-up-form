@@ -4,41 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TOP Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div>
-      This is not a real online service! You know you need something like this
-      in your life to help you realize your deepest dreams. Sign up now and get
-      started. You know you want to.
+    <div class="container">
+      <div class="img-container">image placeholder</div>
+      <div class="content-container">
+        <div class="header-container">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          and get started. You know you want to.
+        </div>
+        <form action="" method="post">
+          <div class="form-container">
+            <p>Lets do this!</p>
+            <div class="user-field">
+              <label for="fname">FIRST NAME:</label>
+              <input type="text" name="fname" id="fname" required />
+            </div>
+            <div class="user-field">
+              <label for="lname">LAST NAME:</label>
+              <input type="text" name="lname" id="lname" required />
+            </div>
+            <div class="user-field">
+              <label for="email">EMAIL:</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="user-field">
+              <label for="phone">PHONE NUMBER:</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+            <div class="user-field">
+              <label for="password">PASSWORD:</label>
+              <input type="password" id="password" name="password" />
+            </div>
+            <div class="user-field">
+              <label for="confirm">CONFIRM PASSWORD:</label>
+              <input type="confirm" id="confirm" name="confirm" />
+            </div>
+          </div>
+          <button>Create Account</button>
+        </form>
+        <div>Already have an account? Log in</div>
+      </div>
     </div>
-    <form action="" method="post">
-      <p>Lets do this!</p>
-      <div>
-        <label for="fname">FIRST NAME:</label>
-        <input type="text" name="fname" id="fname" required />
-      </div>
-      <div>
-        <label for="lname">LAST NAME:</label>
-        <input type="text" name="lname" id="lname" required />
-      </div>
-      <div>
-        <label for="email">EMAIL:</label>
-        <input type="email" name="email" id="email" />
-      </div>
-      <div>
-        <label for="phone">PHONE NUMBER:</label>
-        <input type="tel" id="phone" name="phone" />
-      </div>
-      <div>
-        <label for="password">PASSWORD:</label>
-        <input type="password" id="password" name="password" />
-      </div>
-      <div>
-        <label for="confirm">CONFIRM PASSWORD:</label>
-        <input type="confirm" id="confirm" name="confirm" />
-      </div>
-      <button>Create Account</button>
-    </form>
-    <div>Already have an account? Log in</div>
   </body>
 </html>

@@ -96,3 +96,7 @@ input {
   cursor: pointer; /* Add pointer cursor for better user experience */
 }
 
+.background-image {
+  object-fit: fill;
+  height: 100vh;
+}

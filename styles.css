@@ -120,9 +120,9 @@ input + span {
 input:required + span::after {
   font-size: 0.5rem;
   position: absolute;
-  padding: 5px 10px;
-  top: -26px;
-  left: -70px;
+  padding: 3px 5px;
+  top: -22px;
+  left: -60px;
   color: white;
   background-color: black;
   content: "Required";
@@ -130,8 +130,8 @@ input:required + span::after {
 
 input + span::before {
   position: absolute;
-  right: -20px;
-  top: 5px;
+  right: -12px;
+  top: 8px;
 }
 
 input:invalid {
@@ -153,7 +153,7 @@ input[type="email"]:invalid + span::after {
   position: absolute;
   padding: 2px 5px;
   top: -22px;
-  left: -125px;
+  left: -110px;
   color: white;
   background-color: black;
   content: "format: abc@mail.com";
